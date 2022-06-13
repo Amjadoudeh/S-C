@@ -51,6 +51,10 @@
                                                 <constraint firstItem="bxa-uo-FCe" firstAttribute="top" secondItem="Qei-lP-R22" secondAttribute="top" id="uU9-Rz-w6V"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="categoryImage" destination="bxa-uo-FCe" id="Uq5-i0-9g2"/>
+                                            <outlet property="categoryTitle" destination="F0n-TP-GYP" id="aaH-Ls-L5g"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
@@ -68,6 +72,9 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="S&amp;C" id="arT-7g-Eme"/>
+                    <connections>
+                        <outlet property="categoryTable" destination="Akq-Z4-GzK" id="kAB-yE-Ie8"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

@@ -17,7 +17,7 @@
 		D0220BB62857B05C0087732B /* S_CUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0220BB52857B05C0087732B /* S_CUITests.swift */; };
 		D0220BB82857B05C0087732B /* S_CUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0220BB72857B05C0087732B /* S_CUITestsLaunchTests.swift */; };
 		D0220BC42857B2DC0087732B /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0220B982857B05C0087732B /* CategoryViewController.swift */; };
-		D0220BC92857BB4A0087732B /* CategoryCellTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0220BC82857BB4A0087732B /* CategoryCellTableViewController.swift */; };
+		D0220BC92857BB4A0087732B /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0220BC82857BB4A0087732B /* CategoryCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,7 +51,7 @@
 		D0220BB12857B05C0087732B /* S&CUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "S&CUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0220BB52857B05C0087732B /* S_CUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = S_CUITests.swift; sourceTree = "<group>"; };
 		D0220BB72857B05C0087732B /* S_CUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = S_CUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		D0220BC82857BB4A0087732B /* CategoryCellTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCellTableViewController.swift; sourceTree = "<group>"; };
+		D0220BC82857BB4A0087732B /* CategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,7 +150,7 @@
 		D0220BC72857BACE0087732B /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				D0220BC82857BB4A0087732B /* CategoryCellTableViewController.swift */,
+				D0220BC82857BB4A0087732B /* CategoryCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -287,7 +287,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D0220B992857B05C0087732B /* CategoryViewController.swift in Sources */,
-				D0220BC92857BB4A0087732B /* CategoryCellTableViewController.swift in Sources */,
+				D0220BC92857BB4A0087732B /* CategoryCell.swift in Sources */,
 				D0220B952857B05C0087732B /* AppDelegate.swift in Sources */,
 				D0220B972857B05C0087732B /* SceneDelegate.swift in Sources */,
 			);
