@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D004915428590EEC009BAD0B /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D004915328590EEC009BAD0B /* DataService.swift */; };
 		D0220B952857B05C0087732B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0220B942857B05C0087732B /* AppDelegate.swift */; };
 		D0220B972857B05C0087732B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0220B962857B05C0087732B /* SceneDelegate.swift */; };
 		D0220B992857B05C0087732B /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0220B982857B05C0087732B /* CategoryViewController.swift */; };
@@ -39,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D004915328590EEC009BAD0B /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		D0220B912857B05C0087732B /* S&C.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "S&C.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0220B942857B05C0087732B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D0220B962857B05C0087732B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -81,6 +83,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D004915228590EC6009BAD0B /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				D004915328590EEC009BAD0B /* DataService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 		D0220B882857B05C0087732B = {
 			isa = PBXGroup;
 			children = (
@@ -104,6 +114,7 @@
 		D0220B932857B05C0087732B /* S&C */ = {
 			isa = PBXGroup;
 			children = (
+				D004915228590EC6009BAD0B /* Services */,
 				D0220BC72857BACE0087732B /* Views */,
 				D0220BC62857BAC10087732B /* Models */,
 				D0220BC52857BAA80087732B /* Controllers  */,
@@ -292,6 +303,7 @@
 				D0220B992857B05C0087732B /* CategoryViewController.swift in Sources */,
 				D0220BCB28588C920087732B /* Category.swift in Sources */,
 				D0220BC92857BB4A0087732B /* CategoryCell.swift in Sources */,
+				D004915428590EEC009BAD0B /* DataService.swift in Sources */,
 				D0220B952857B05C0087732B /* AppDelegate.swift in Sources */,
 				D0220B972857B05C0087732B /* SceneDelegate.swift in Sources */,
 			);
