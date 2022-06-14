@@ -1,6 +1,6 @@
 import UIKit
 
-class CategoryCell: UITableViewController {
+class CategoryCell: UITableViewCell{
 
     @IBOutlet weak var categoryImage: UIImageView!
     @IBOutlet weak var categoryTitle: UILabel!

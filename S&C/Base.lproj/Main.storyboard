@@ -26,7 +26,7 @@
                                 <rect key="frame" x="0.0" y="75" width="390" height="681"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="197" id="nZb-65-Evo" customClass="CategoryCell">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="CategoryCell" rowHeight="197" id="nZb-65-Evo" customClass="CategoryCell" customModule="S_C" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="44.666666030883789" width="390" height="197"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="nZb-65-Evo" id="Qei-lP-R22">
@@ -36,24 +36,29 @@
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="digital" translatesAutoresizingMaskIntoConstraints="NO" id="bxa-uo-FCe">
                                                     <rect key="frame" x="0.0" y="0.0" width="390" height="197"/>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="HOODIES" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F0n-TP-GYP">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="HOODIES" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F0n-TP-GYP">
                                                     <rect key="frame" x="132" y="83" width="126" height="49"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="126" id="CWn-mM-dL0"/>
+                                                    </constraints>
                                                     <fontDescription key="fontDescription" name="Avenir-HeavyOblique" family="Avenir" pointSize="20"/>
                                                     <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
                                             <constraints>
+                                                <constraint firstAttribute="bottomMargin" secondItem="F0n-TP-GYP" secondAttribute="bottom" constant="54" id="6TX-22-9d6"/>
                                                 <constraint firstItem="bxa-uo-FCe" firstAttribute="leading" secondItem="Qei-lP-R22" secondAttribute="leading" id="Bfp-KJ-Ndw"/>
                                                 <constraint firstAttribute="bottom" secondItem="bxa-uo-FCe" secondAttribute="bottom" id="XNO-Ml-WNP"/>
                                                 <constraint firstAttribute="trailing" secondItem="bxa-uo-FCe" secondAttribute="trailing" id="fcz-bn-r8m"/>
+                                                <constraint firstItem="F0n-TP-GYP" firstAttribute="top" secondItem="Qei-lP-R22" secondAttribute="topMargin" constant="72" id="mAt-ry-6yK"/>
                                                 <constraint firstItem="bxa-uo-FCe" firstAttribute="top" secondItem="Qei-lP-R22" secondAttribute="top" id="uU9-Rz-w6V"/>
+                                                <constraint firstItem="F0n-TP-GYP" firstAttribute="centerX" secondItem="bxa-uo-FCe" secondAttribute="centerX" id="z35-Fq-z54"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <outlet property="categoryImage" destination="bxa-uo-FCe" id="Uq5-i0-9g2"/>
-                                            <outlet property="categoryTitle" destination="F0n-TP-GYP" id="aaH-Ls-L5g"/>
+                                            <outlet property="categoryImage" destination="bxa-uo-FCe" id="8hU-Hx-har"/>
+                                            <outlet property="categoryTitle" destination="F0n-TP-GYP" id="wh3-pq-Owt"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -73,7 +78,7 @@
                     </view>
                     <navigationItem key="navigationItem" title="S&amp;C" id="arT-7g-Eme"/>
                     <connections>
-                        <outlet property="categoryTable" destination="Akq-Z4-GzK" id="kAB-yE-Ie8"/>
+                        <outlet property="categoryTable" destination="Akq-Z4-GzK" id="uTI-QT-Bcg"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
