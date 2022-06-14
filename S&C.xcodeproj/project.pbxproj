@@ -18,6 +18,7 @@
 		D0220BB82857B05C0087732B /* S_CUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0220BB72857B05C0087732B /* S_CUITestsLaunchTests.swift */; };
 		D0220BC42857B2DC0087732B /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0220B982857B05C0087732B /* CategoryViewController.swift */; };
 		D0220BC92857BB4A0087732B /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0220BC82857BB4A0087732B /* CategoryCell.swift */; };
+		D0220BCB28588C920087732B /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0220BCA28588C920087732B /* Category.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 		D0220BB52857B05C0087732B /* S_CUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = S_CUITests.swift; sourceTree = "<group>"; };
 		D0220BB72857B05C0087732B /* S_CUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = S_CUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		D0220BC82857BB4A0087732B /* CategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
+		D0220BCA28588C920087732B /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,6 +145,7 @@
 		D0220BC62857BAC10087732B /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				D0220BCA28588C920087732B /* Category.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -287,6 +290,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D0220B992857B05C0087732B /* CategoryViewController.swift in Sources */,
+				D0220BCB28588C920087732B /* Category.swift in Sources */,
 				D0220BC92857BB4A0087732B /* CategoryCell.swift in Sources */,
 				D0220B952857B05C0087732B /* AppDelegate.swift in Sources */,
 				D0220B972857B05C0087732B /* SceneDelegate.swift in Sources */,
