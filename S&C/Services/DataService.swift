@@ -35,7 +35,40 @@ class DataService {
         Product(title: "Devslopes Logo Blackish" , price: "$ 12", imageName: "hat05.png")
     ]
     
+    private let digitalGoods = [Product]() // you have to declear a type to aviod craching
+    
     func getCategory() -> [Category] {
         return categories
+    }
+    
+    func getProducts(forCategoryTitle title: String) -> [Product] {
+        switch title {
+        case "SHIRTS":
+            return getShirts()
+        case "HATS":
+            return getHats()
+        case "Hoodies":
+            return getHoodies()
+        case "DIGITAL":
+            return getDigitalGoods()
+        default:
+            return getShirts()
+        }
+    }
+    
+    func getShirts() -> [Product] {
+        return shirts
+    }
+    
+    func getHats() -> [Product] {
+        return hats
+    }
+    
+    func getHoodies() -> [Product] {
+        return hoodies
+    }
+    
+    func getDigitalGoods() -> [Product] {
+        return digitalGoods
     }
 }
