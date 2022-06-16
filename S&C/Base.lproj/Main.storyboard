@@ -81,17 +81,17 @@
                     <navigationItem key="navigationItem" title="S&amp;C" id="arT-7g-Eme"/>
                     <connections>
                         <outlet property="categoryTable" destination="Akq-Z4-GzK" id="uTI-QT-Bcg"/>
-                        <segue destination="BJb-wz-RcC" kind="show" id="VTB-Np-5Xf"/>
+                        <segue destination="BJb-wz-RcC" kind="show" identifier="ProductViewController" id="VTB-Np-5Xf"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="576.92307692307691" y="83.886255924170612"/>
         </scene>
-        <!--View Controller-->
+        <!--Product View Controller-->
         <scene sceneID="3gx-dX-OwR">
             <objects>
-                <viewController id="BJb-wz-RcC" sceneMemberID="viewController">
+                <viewController id="BJb-wz-RcC" customClass="ProductViewController" customModule="S_C" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="LWt-KH-Vqf">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="756"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
