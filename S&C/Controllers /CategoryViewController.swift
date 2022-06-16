@@ -24,6 +24,18 @@ class CategoryViewController: UIViewController, UITableViewDataSource, UITableVi
             return CategoryCell()
         }
     }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let category = DataService.instance.getCategory()[indexPath.row]
+        performSegue(withIdentifier: "ProductViewController", sender: category)
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if let productViewController = segue.destination as? ProductViewController {
+            assert(sender as? Category != nil) // just to check the type if it's Category and if not it will carch the app in the build time.
+            productViewController.initProduct(category: sender as! Category)
+        }
+    }
 }
 
 
