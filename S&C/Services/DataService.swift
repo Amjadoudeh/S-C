@@ -12,11 +12,11 @@ class DataService {
     
     
     private let hoodies = [
-        Product(title: "Devslopes Logo Beanie", price: "$ 18", imageName: "hoodie01.png"),
-        Product(title: "Devslopes Logo Gray", price: "$ 22", imageName: "hoodie02.png"),
-        Product(title: "Devslopes Logo Dark-Red", price: "$ 24", imageName: "hoodie03.png"),
-        Product(title: "Devslopes Logo Black", price: "$ 32", imageName: "hoodie04.png"),
-        Product(title: "Devslopes Logo Blackish" , price: "$ 12", imageName: "hoodie05.png")
+        Product(title: "Devslopes  Beanie", price: "$ 18", imageName: "hoodie01.png"),
+        Product(title: "Devslopes  Gray", price: "$ 22", imageName: "hoodie02.png"),
+        Product(title: "Devslopes  Dark-Red", price: "$ 24", imageName: "hoodie03.png"),
+        Product(title: "Devslopes  Black", price: "$ 32", imageName: "hoodie04.png"),
+        Product(title: "Devslopes  Blackish" , price: "$ 12", imageName: "hoodie05.png")
     ]
     
     private let shirts = [
@@ -43,14 +43,14 @@ class DataService {
     
     func getProducts(forCategoryTitle title: String) -> [Product] {
         switch title {
-        case "SHIRTS":
-            return getShirts()
-        case "HATS":
-            return getHats()
         case "Hoodies":
             return getHoodies()
+        case "HATS":
+            return getHats()
         case "DIGITAL":
             return getDigitalGoods()
+        case "SHIRTS":
+            return getShirts()
         default:
             return getShirts()
         }
