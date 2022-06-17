@@ -176,6 +176,7 @@
                             <constraint firstItem="FVx-QJ-ojM" firstAttribute="top" secondItem="MY2-94-gRZ" secondAttribute="bottom" constant="16" id="6up-6Q-Ryz"/>
                             <constraint firstItem="FVx-QJ-ojM" firstAttribute="trailing" secondItem="y4Z-A1-0GY" secondAttribute="trailing" id="S4g-WV-irI"/>
                             <constraint firstItem="MY2-94-gRZ" firstAttribute="top" secondItem="y4Z-A1-0GY" secondAttribute="top" constant="30" id="WZH-jG-kGg"/>
+                            <constraint firstItem="y4Z-A1-0GY" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="MY2-94-gRZ" secondAttribute="trailing" symbolic="YES" id="XyT-Yu-GPa"/>
                             <constraint firstItem="MY2-94-gRZ" firstAttribute="leading" secondItem="LWt-KH-Vqf" secondAttribute="leadingMargin" id="Yju-EK-Qh9"/>
                             <constraint firstItem="FVx-QJ-ojM" firstAttribute="bottom" secondItem="y4Z-A1-0GY" secondAttribute="bottom" constant="34" id="hcu-5y-BRh"/>
                         </constraints>

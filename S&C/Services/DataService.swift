@@ -16,7 +16,7 @@ class DataService {
         Product(title: "Devslopes  Gray", price: "$ 22", imageName: "hoodie02.png"),
         Product(title: "Devslopes  Dark-Red", price: "$ 24", imageName: "hoodie03.png"),
         Product(title: "Devslopes  Black", price: "$ 32", imageName: "hoodie04.png"),
-        Product(title: "Devslopes  Blackish" , price: "$ 12", imageName: "hoodie05.png")
+        Product(title: "Devslopes  Blackish" , price: "$ 12", imageName: "hoodie01.png")
     ]
     
     private let shirts = [
@@ -24,7 +24,7 @@ class DataService {
         Product(title: "Devslopes Logo Gray", price: "$ 22", imageName: "shirt02.png"),
         Product(title: "Devslopes Logo Dark-Red", price: "$ 24", imageName: "shirt03.png"),
         Product(title: "Devslopes Logo Black", price: "$ 32", imageName: "shirt04.png"),
-        Product(title: "Devslopes Logo Blackish" , price: "$ 12", imageName: "shirt05.png")
+        Product(title: "Devslopes Logo Blackish" , price: "$ 12", imageName: "shirt01.png")
     ]
     
     private let hats = [
@@ -32,7 +32,7 @@ class DataService {
         Product(title: "Devslopes Logo Gray", price: "$ 22", imageName: "hat02.png"),
         Product(title: "Devslopes Logo Dark-Red", price: "$ 24", imageName: "hat03.png"),
         Product(title: "Devslopes Logo Black", price: "$ 32", imageName: "hat04.png"),
-        Product(title: "Devslopes Logo Blackish" , price: "$ 12", imageName: "hat05.png")
+        Product(title: "Devslopes Logo Blackish" , price: "$ 12", imageName: "hat01.png")
     ]
     
     private let digitalGoods = [Product]() // you have to declear a type to aviod craching
@@ -52,7 +52,7 @@ class DataService {
         case "SHIRTS":
             return getShirts()
         default:
-            return getShirts()
+            return getHoodies()
         }
     }
     
